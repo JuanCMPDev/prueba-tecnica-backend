@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: 'https://quickbet-movies-ecru.vercel.app',
+    origin: 'https://prueba-tecnica-backend-production-6aa3.up.railway.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   });
