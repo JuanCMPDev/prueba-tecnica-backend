@@ -6,7 +6,7 @@ async function bootstrap() {
 
   app.enableCors({
     origin:
-      'https://quickbet-movies-nruqwi83v-juan-carlos-munoz-picos-projects.vercel.app/',
+      'https://quickbet-movies-nruqwi83v-juan-carlos-munoz-picos-projects.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   });
